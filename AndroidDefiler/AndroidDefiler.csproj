@@ -49,10 +49,10 @@
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Cecil">
-      <HintPath>..\..\..\PSPSTUFF\compartido\rejuvenate\Mono.Cecil.dll</HintPath>
+      <HintPath>Libraries\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Debugger.Soft">
-      <HintPath>..\..\..\PSPSTUFF\compartido\rejuvenate\Mono.Debugger.Soft.dll</HintPath>
+      <HintPath>Libraries\Mono.Debugger.Soft.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +78,8 @@
     </None>
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
+    <None Include="Libraries\Mono.Cecil.dll" />
+    <None Include="Libraries\Mono.Debugger.Soft.dll" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -89,4 +91,7 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Libraries\" />
+  </ItemGroup>
 </Project>
