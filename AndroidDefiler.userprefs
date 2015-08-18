@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="AndroidDefiler/AndroidDefiler.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.09861537032694b9" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AndroidDefiler/MainActivity.cs">
+    <Files>
+      <File FileName="AndroidDefiler/MainActivity.cs" Line="81" Column="30" />
+      <File FileName="AndroidDefiler/Connection.cs" Line="102" Column="1" />
+      <File FileName="AndroidDefiler/PSMSupport.cs" Line="74" Column="23" />
+      <File FileName="AndroidDefiler/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="AndroidDefiler/Exploit.cs" Line="619" Column="11" />
+      <File FileName="AndroidDefiler/Modules/Scripting.cs" Line="64" Column="1" />
+      <File FileName="AndroidDefiler/Modules/Memory.cs" Line="137" Column="5" />
+      <File FileName="AndroidDefiler/Network.cs" Line="79" Column="9" />
+      <File FileName="AndroidDefiler/Modules/General.cs" Line="28" Column="1" />
+      <File FileName="AndroidDefiler/Resources/values/Strings.xml" Line="3" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
